@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.google.com/specimen/Baloo+Bhaina+2/?query=baloo%20bhai&sidebar.open&selection.family=Baloo%20Bhaina%202" rel="stylesheet">
+</head>
+<style>
+* {box-sizing:border-box}
+body {
+  font-family: Verdana,sans-serif;
+  margin:0;
+  background-image: url('bg.jpg');
+}
+
+.topnav{
+  color: white;
+  font-size: 40px;
+  font-family: 'Baloo Bhai',cursive;
+  margin-left: 100px;
+}
+
+.topnav a{
+  text-decoration: none;
+  color: grey;
+  padding: 100px;
+  display: inline;
+}
+
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 55px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  font-family: 'Pinyon Script', cursive;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+.us{
+  background-color: black;
+  color: white;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 70px;
+  height: 400px;
+}
+
+.main{
+  margin-top: 70px;
+  margin-left: 30px;
+  width: 100%;
+  height: 370px;
+  display: flex;
+}
+
+.main div{
+  flex: 1;
+}
+
+hr {
+  border:none;
+  height: 20px;
+ 	width: 90%;
+	height: 50px;
+	margin-top: 0;
+	border-bottom: 1px solid #1f1209;
+	box-shadow: 0 20px 20px -20px #333;
+  margin: -50px auto 10px; 
+}
+
+.row{
+  margin-top: -55px;
+}
+
+.menu{
+  font-family: 'Pinyon Script', cursive;
+  font-size: 80px;
+  text-align: center;
+}
+
+.checked {
+  color: orange;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.booking{
+  background-image: url('image5.jpg') ;
+  width: 90%;
+  margin-left: 100px;
+  repeat: none;
+}
+
+.btn{
+  margin-left: 600px;
+  font-size: 40px;
+  font-family:'Pinyon Script', cursive;
+}
+
+.dishes{
+  background-image: url('dishbg.jpg');
+  width: 90%;
+  margin-left: 100px;
+}
+
+.part{
+  margin-top: 70px;
+  margin-left: 30px;
+  width: 100%;
+  height: 420px;
+  display: flex;
+}
+
+.review {
+  display: block;
+  margin-left: 490px;
+}
+
+.review::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.review img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.review span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+@media (max-width: 500px) {
+  .container {
+      text-align: center;
+  }
+  .container img {
+      margin: auto;
+      float: none;
+      display: block;
+  }
+}
+
+.history{
+  font-family: 'Pinyon Script', cursive;
+  font-size: 50px;
+}
+
+.para{
+  width: 50%;
+}
+
+.a{
+  text-decoration: none;
+  color: white;
+}
+
+  a[href^="mailto"]::before {
+    content: "📧 ";
+  }
+
+  a[href^="tel"]::before {
+    content: "📞 ";
+  }
+
+</style>
+<body>
+
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#news">Prices</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+</div>
+<br>
+<hr>
+<br><br>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="image1.jpg" style="width:100%">
+  <div class="text">Where food speaks with your palate</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="image2.jpg" style="width:100%">
+  <div class="text">The pleasure of finding the difference</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="image3.webp" style="width:100%">
+  <div class="text">An oasis of pleasure</div>
+</div>
+
+</div>
+<br>
+
+<div>
+
+<div class="part">
+  <div style="margin-left: 45px"><img src="image4.webp" style="width:90%"></div>
+  <div class="para">
+    <h1 style="text-align: center" class="history">Restaurant History</h1>
+    <h1 style="text-align: center">"Wake up! It's food'o clock :)"</h1>
+    <p>Every day, before dawn, without fail, each store begins to grind up soybeans, roll out the dough for the oven baked bun and light the stoves to begin frying the deep fried crullers. Over the years the weary individuals working the grave yard shifts, the foreigners visiting LA, and those getting ready to go to work stop by our restaurants to enjoy hot, freshly ground soy milk, made to order dishes such as fried daikon cake and egg crepes or our many styles of rice rolls, filling up their stomachs and their hearts. We take pride in the faces of our satisfied customers leaving the restaurant after having taken respite from their busy lives to truly enjoy a traditional meal reminding them of our cultural heritage.</p>
+  </div>  
+</div>
+
+</div>
+
+<div>
+
+<br><br>
+<hr>
+
+</div>
+
+<div class="dishes">
+
+<h1 class="menu"> Menu </h1>
+
+<div style="margin-left: 50px">
+  <div class="main" style="align: center">
+
+    <div class="card" >
+      <img src="dish1.webp" style="width:87%" style="box-shadow:20px 20px 50px grey">
+      <div class="container">
+        <h1><b>Paneer Butter Masala</b></h1>
+        <p>In the world full of Daal Khichadi, <br>will you be my Paneer Butter Masala!</p> 
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="dish2.jpg" style="width:70%">
+      <div class="container">
+        <h1><b>Veggie Burger</b></h1> 
+        <p>A burger without a cheese, <br> Like a hug without a squeeze!</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="dish3.jpg" style="width:77%">
+      <div class="container">
+        <h1><b>Biryani Rice</b></h1>
+        <p>If someone say true love never exists,<br>Make them taste Biryani!</p> 
+      </div>
+    </div>  
+
+  </div>
+
+  <div class="main" style="align: center">
+
+    <div class="card">
+      <img src="dish4.webp" style="width:70%">
+      <div class="container">
+        <h1><b>Italian Noodles</b></h1> 
+        <p>Peace will come to the world when <br>The people have enough Noodles to eat! </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="dish5.jpg" style="width:70%">
+      <div class="container">
+        <h1><b>Egg Mix Curry</b></h1> 
+        <p>If you combine good flavours, <br>Food turns into an orchestra! </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="dish6.jpg" style="width:78%">
+      <div class="container">
+        <h1><b>French Fries</b></h1>
+        <p>Potatoes make French Fries, Chips and Vodka, <br>It's like other vegetables aren't even trying! </p> 
+      </div>
+    </div>  
+
+  </div>
+
+  <div class="main" style="align: center">
+
+    <div class="card">
+      <img src="dish7.jpg" style="width:80%">
+      <div class="container">
+        <h1><b>Mozzarella Pizza</b></h1> 
+        <p>Unless you are a Pizza,the answer is Yes <br>I can live without you! </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="dish8.webp" style="width:70%">
+      <div class="container">
+        <h1><b>Butter Naan</b></h1> 
+        <p>I lost some weight once, <br>But i found it again! </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="dish9.jpg" style="width:77%">
+      <div class="container">
+        <h1><b>Paneer Tikka</b></h1>
+        <p>Either I eat Paneer Tikka or I eat all Paneer Tikka, <br>There is no in between.</p> 
+      </div>
+    </div>  
+
+  </div>
+   
+</div>
+</div>
+
+<br><br>
+<hr>
+
+<div class="booking">
+
+<h1 class="menu">Book A Table</h1>
+<p class="menu">Some Trendy And Popular Courses Offered</p>
+
+<br></br></br>
+<h3 style="text-align: center"> MONDAY-FRIDAY: 08AM-12PM    SATURDAY-SUNDAY: 10AM-11PM </h3>
+<form>
+
+<span style="margin: 300px">  
+<input type="text" placeholder="Enter Your Name" style="width: 25%"> 
+<input type="text" placeholder="Email Address" style="width: 25%">
+</span>
+<br>
+<br>
+<span style="margin: 300px">  
+<input type="text" placeholder="Telephone Number" style="width: 25%"> 
+<input type="number" placeholder="Number of Guests" style="width: 25%">
+</span>
+<br>
+<br>
+<span style="margin: 300px">  
+<input type="date" placeholder="Date format" style="width: 25%"> 
+<input type="time" placeholder="Time" style="width: 25%">
+</span>
+
+<br><br>
+
+<button class="btn"> Submit </button>
+
+</form>
+<br>
+</div>
+
+<br><br><br><br>
+<hr>
+
+<div>
+
+<h1 class="menu">Customer Reviews</h1>
+<div class="review">
+  <img src="user1.jpg" alt="Avatar" style="width:90px">
+  <p>User One.</p>
+  <p>The food is just owesome!!</p>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star"></span>
+</div>
+<br>
+<div class="review">
+  <img src="user2.jpg" alt="Avatar" style="width:90px">
+  <p>User Two.</p>
+  <p>This is one of the best restaurants I have ever been!!</p>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star"></span>
+  <span class="fa fa-star"></span>
+</div>
+<br>
+<div class="review">
+  <img src="user3.jpg" alt="Avatar" style="width:90px">
+  <p>User Three.</p>
+  <p>Would love to come here again and again!!</p>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+</div>
+<br>
+<br>
+
+<div class="us" style="width: 100%">
+<br>
+  <h1 class="menu">Contact Us</h1>
+  <div class="row">
+    <div class="column" style="background-color:black;">
+      <address class="contact">
+        <h2>VISIT US</h2>
+        <br>
+        <p>Some random address</p>
+        <a class="a" href="mailto:abcd@gmail.com">abcd.com</a><br>
+        <a class="a" href="tel:+01572123456">123456</a>
+      </address>
+    </div>
+    <div class="column" style="background-color:black;">
+      <h2>OPENING TIME</h2>
+      <br>
+      <p>Monday-Saturday</p>
+      <p>9:00AM-11:30PM</p>
+      <p>Saturday-Sunday</p>
+      <p>10:00AM-11:00PM</p>
+    </div>
+    <div class="column" style="background-color:black;">
+      <h2>THE MENU</h2>
+      <br>
+      <p>Special Items</p>
+      <p>Fresh Breakfast</p>
+      <p>Lunch Menu</p>
+      <p>Dinner Items</p>
+      <p>Fresh Food Zone</p>
+    </div>
+  </div>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html> 
